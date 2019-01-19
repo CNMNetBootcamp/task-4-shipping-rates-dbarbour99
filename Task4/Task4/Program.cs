@@ -39,6 +39,8 @@ namespace Task4
 
 
             //processing
+            // TODO: Include {} while this works and compiles there 
+            // could be unintended behavior. Remember this only works for 1 line only 
             if (inputpounds < firstlevel)
                 shippingrate = firstcost;
             else if (inputpounds < secondlevel)
